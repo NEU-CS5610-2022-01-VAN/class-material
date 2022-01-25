@@ -3,6 +3,180 @@
   <head>
     <meta charset="utf-8" />
     <title>My test page</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Welcome to CS5610</h1>
+    <h2>Welcome to CS5610</h2>
+    <h3>Welcome to CS5610</h3>
+    <h4 id="red-title">Welcome to CS5610</h4>
+    <h5 class="blue-title">Welcome to CS5610</h5>
+    <h6 class="blue-title">Welcome to CS5610</h6>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro cumque
+      maxime, magnam dolor <strong>dolorum delectus voluptates</strong> in
+      corrupti, saepe nemo qui. Sint omnis beatae debitis at eius fuga incidunt!
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+      facilis dolore, quo aspernatur, itaque minima minus aliquam deleniti
+      voluptate tenetur rem quos sed sunt, nostrum magnam natus esse voluptates
+      earum.
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
+      voluptatibus dicta. <a href="http://www.google.com">Google</a> Id, iste
+      rerum architecto odit facere illum provident officia laboriosam voluptatum
+      harum? Autem tenetur fugit doloribus, nesciunt totam eaque?
+    </p>
+
+    <ul>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ul>
+
+    <ol>
+      <li>list item 1</li>
+      <li>list item 2</li>
+      <li>list item 3</li>
+      <li>list item 4</li>
+    </ol>
+
+    <table>
+      <tr>
+        <td>(0,0)</td>
+        <td>(1,0)</td>
+      </tr>
+      <tr>
+        <td>(0,1)</td>
+        <td>(1,1)</td>
+      </tr>
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <form method="POST">
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" placeholder="Enter first name" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message"></textarea>
+      </div>
+
+      <div>
+        <label for="state">State</label>
+        <select id="state">
+          <option value="BC">BC</option>
+          <option value="ON">ON</option>
+          <option value="QC">QC</option>
+          <option value="AB">AB</option>
+          <option value="NS">NS</option>
+          <option value="NL">NL</option>
+          <option value="PE">PE</option>
+          <option value="NB">NB</option>
+          <option value="MB">MB</option>
+          <option value="SK">SK</option>
+          <option value="YT">YT</option>
+          <option value="NT">NT</option>
+          <option value="NU">NU</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="age">Age:</label>
+        <input type="number" id="age" value="30" />
+      </div>
+
+      <div>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" />
+      </div>
+
+      <input type="submit" name="submit" value="Submit" />
+    </form>
+
+    <div>
+      <button>Click me! I don't do anything</button>
+    </div>
+
+    <img src="images/messi.jpeg" alt="Lionel Messi" width="300" />
+
+    <img src="https://place-puppy.com/200x200" alt="Lovely puppy" />
+
+    <a href="https://www.instagram.com/leomessi" target="_blank">
+      <img
+        src="https://www.sportsnet.ca/wp-content/uploads/2020/02/Lionel-Messi-Barcelona.jpg"
+        alt="Lionel Messi celebrating"
+        width="300"
+      />
+    </a>
+
+    <blockquote cite="http://google.com">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quasi
+      voluptates autem perferendis vel dolorem fugit ducimus! Aut cumque libero
+      sint rerum inventore. Vero ad, reiciendis cupiditate aut commodi laborum.
+    </blockquote>
+
+    <p>Welcome to <abbr title="Northeastern university">NEU</abbr></p>
+
+    <p>Lorem ipsum dolor <cite>sit amet consectetur</cite> adipisicing elit.</p>
+
+    <div>
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="tech.html">Tech</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="politics.html">Politics</a></li>
+        <li><a href="food.html">Food</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <button id="button-with-functionality">
+        Click me! I'll show an alert
+      </button>
+    </div>
+
+    <video autoplay controls muted loop width="600">
+      <source
+        src="https://www.apple.com/105/media/us/macbook-pro-14-and-16/2021/a1c5d17e-d8e4-4fa8-b70a-bc61bd266412/anim/graphics-screen/large.mp4"
+        type="video/mp4"
+      />
+
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/HwBcOli0YLM"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+    <div class="box-3"></div>
+    <div class="box-1"></div>
+    <div class="box-2"></div>
+
+    <script src="./index.js"></script>
+  </body>
 </html>

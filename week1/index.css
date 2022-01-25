@@ -1,0 +1,33 @@
+h1 {
+  color: peru;
+}
+
+h3 {
+  color: #198267;
+}
+
+#red-title {
+  color: red;
+}
+
+.blue-title {
+  color: blue;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: peru;
+}
+
+.box-3 {
+  width: 200px;
+  height: 200px;
+  background-color: magenta;
+}
