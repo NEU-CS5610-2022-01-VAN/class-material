@@ -1,0 +1,19 @@
+.class-a {
+  height: 100px;
+  width: 100px;
+  background-color: mediumpurple;
+}
+
+.class-a:hover {
+  height: 200px;
+  width: 200px;
+  background-color: peru;
+}
+
+.li-item-class {
+  color: darkred;
+}
+
+.li-item-class:first-child {
+  color: fuchsia;
+}
