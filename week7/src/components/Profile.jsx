@@ -1,28 +1,31 @@
 import React from "react";
+import { useUser } from "../UserContext";
 
 export default function Profile() {
+  const { user } = useUser();
+
   return (
     <div>
       <div>
-        <p>Name: </p>
+        <p>Name: {user?.name}</p>
       </div>
       <div>
-        <img src="" width="70" alt="profile avatar" />
+        <img src={user?.avatar_url} width="70" alt="profile avatar" />
       </div>
       <div>
-        <p>🏢 Company: </p>
+        <p>🏢 Company: {user?.company}</p>
       </div>
       <div>
-        <p>📍 Location: </p>
+        <p>📍 Location: {user?.location}</p>
       </div>
       <div>
-        <p>🔗 Blog: </p>
+        <p>🔗 Blog: {user?.blog}</p>
       </div>
       <div>
-        <p>🐦 Twitter: </p>
+        <p>🐦 Twitter: {user?.twitter_username}</p>
       </div>
       <div>
-        <p>📄 Bio: </p>
+        <p>📄 Bio: {user?.bio}</p>
       </div>
       <div>
         <table>
@@ -35,9 +38,9 @@ export default function Profile() {
           </thead>
           <tbody>
             <tr>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td>{user?.public_repos}</td>
+              <td>{user?.public_gists}</td>
+              <td>{user?.followers}</td>
             </tr>
           </tbody>
         </table>
